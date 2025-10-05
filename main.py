@@ -27,3 +27,4 @@ if canvas_result.image_data is not None:
     prediccion = predecir_imagen(Image.fromarray((canvas_result.image_data[:, :, 0]).astype("uint8")))
     st.subheader(f"🔢 Predicción: {prediccion}")
 
+
