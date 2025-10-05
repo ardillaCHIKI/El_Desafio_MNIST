@@ -1,23 +1,5 @@
-# Carpetas de Python
 __pycache__/
-*.py[cod]
-
-# Archivos de modelos pesados
 *.h5
-*.hdf5
-*.ckpt
-*.pb
-
-# Archivos temporales
 *.log
 *.tmp
-*.npy
-*.npz
-
-# Archivos de sistema
-.DS_Store
-Thumbs.db
-
-# Entornos virtuales
 venv/
-.env/
