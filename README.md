@@ -1,54 +1,53 @@
 # El_Desafio_MNIST
 https://github.com/ardillaCHIKI/El_Desafio_MNIST.git
+
 🧠 El Desafío MNIST
-Este repositorio contiene un proyecto de clasificación de dígitos manuscritos utilizando el conjunto de datos MNIST. El objetivo es entrenar y evaluar modelos de aprendizaje automático para reconocer números del 0 al 9 a partir de imágenes en escala de grises de 28x28 píxeles.
+Proyecto de clasificación de dígitos manuscritos usando el famoso dataset MNIST. El objetivo es entrenar un modelo que pueda reconocer números del 0 al 9 a partir de imágenes en escala de grises de 28x28 píxeles.
 
-📁 Estructura del Proyecto
+📦 Estructura del repositorio
+Código
 El_Desafio_MNIST/
-├── src/                      # Código fuente principal
-├── static/                  # Recursos estáticos (si aplica)
-├── venv/                    # Entorno virtual de Python
-├── Ejercicio1_classify_numbers.ipynb  # Notebook con análisis y entrenamiento
-├── main.py                  # Script principal de ejecución
-├── mnist_trainer.py         # Módulo de entrenamiento del modelo
-├── requirements.txt         # Dependencias del proyecto
-└── README.md                # Este archivo
-
-🚀 Cómo empezar
-Clona el repositorio:
+├── Ejercicio1_classify_numbers.ipynb  # Notebook con entrenamiento y evaluación
+├── main.py                            # Script principal para ejecutar el modelo
+├── mnist_trainer.py                   # Módulo con funciones de entrenamiento
+├── requirements.txt                   # Lista de dependencias
+└── venv/                              # Entorno virtual (opcional)
+⚙️ Instalación y ejecución
+1. Clonar el repositorio
+bash
 git clone https://github.com/ardillaCHIKI/El_Desafio_MNIST.git
 cd El_Desafio_MNIST
-
-Crea y activa el entorno virtual:
+2. Crear y activar el entorno virtual (Windows)
+bash
 python -m venv venv
-source venv/bin/activate  # En Linux/Mac
-venv\\Scripts\\activate   # En Windows
+venv\Scripts\activate
+💡 En Mac/Linux: source venv/bin/activate
 
-Instala las dependencias:
-
+3. Instalar dependencias
 bash
 pip install -r requirements.txt
-Ejecuta el proyecto: Puedes correr el notebook Ejercicio1_classify_numbers.ipynb para explorar el flujo de trabajo o ejecutar main.py para lanzar el modelo desde consola.
-
-🚀 Cómo ejecutar el proyecto desde main.py
-Una vez que hayas instalado las dependencias y activado el entorno virtual, puedes lanzar el modelo directamente desde el script principal:
+4. Ejecutar el proyecto desde main.py
 bash
 python main.py
+Este script se encarga de:
 
-🧪 Funcionalidades
-Carga y preprocesamiento del dataset MNIST.
+Cargar el dataset MNIST.
 
-Entrenamiento de modelos de clasificación.
+Preprocesar las imágenes.
 
-Evaluación de precisión y visualización de resultados.
+Entrenar el modelo.
 
-Modularización del código para facilitar su mantenimiento.
+Evaluar su rendimiento.
 
-📊 Tecnologías utilizadas
-Python 3
+Mostrar ejemplos de predicciones.
+
+🧪 ¿Qué tecnologías se usan?
+Python 🐍
 
 TensorFlow / Keras
 
-NumPy, Matplotlib
+NumPy
+
+Matplotlib
 
 Jupyter Notebook
